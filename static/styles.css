@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Ubuntu Sans Mono;
+    cursor:pointer;
+}
+
+header {
+    background-color:#333;
+    color:white;
+    padding:10px 0;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+}
+
+section {
+    padding:60px 20px;
+    margin-top:60px;
+}
+
+#home {
+    background-color:#e2e2e2;
+    margin-top:10px;
+}
+
+#achievements, #experience, #skills, #contact {
+    background-color:#e2e2e2;
+    margin-top:20px;
+}
+
+h1, h2 {
+    text-align:center;
+}
+.name{
+    text-align:left;
+}
+
+.profile-img > img {
+    width:150px;
+    height:150px;
+    -webkit-box-shadow:12px 29px 81px 0px rgba(45, 45, 45, 0.75);
+    -moz-box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    border-radius:60%;
+    border: 10px solid black;
+}
+#box1 > h1{
+    text-align:center;
+    justify-content:center;
+    padding-left:30px;
+}
+
+#changing-text {
+    opacity:0;
+}
+
+.achievements {
+    max-width:100%;
+    padding:3em 1.5em;
+  }
+  
+  .main-heading {
+    font-weight:600;
+    font-size:2.25em;
+    margin-bottom:8.75em;
+    text-align:center;
+  }
+  
+  .cards {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2.5em;
+    margin-top:0%;
+    justify-content:center;
+  }
+  
+  .card {
+    flex:1 1 300px; 
+    padding:1.5em;
+    margin-top:40px;
+    gap:1.25em;
+    display:grid;
+    grid-template-rows:auto auto auto;
+    align-items:start;
+    background-color:transparent; 
+    border:1px solid #333;
+    border-radius:15px;
+    -webkit-box-shadow:12px 29px 81px 0px rgba(45, 45, 45, 0.75);
+    -moz-box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    transition:transform 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .achievements {
+    width:1000%;
+  }
+
+  .mission-completed {
+    background-color:#e2e2e2;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:transform 0.3s;
+    -webkit-box-shadow:12px 29px 81px 0px rgba(45, 45, 45, 0.75);
+    -moz-box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+.mission-completed:hover {
+    transform:translateY(-5px);
+}
